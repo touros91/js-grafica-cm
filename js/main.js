@@ -34,7 +34,7 @@ griglia10(numeroCelle);
 document.getElementById("campo").addEventListener(`click`,
     function(evento) {
         alert(evento.target.innerHTML);
-        evento.target.classList.add("bg-red");
+        evento.target.classList.toggle("bg-red");
     }
 );
 
