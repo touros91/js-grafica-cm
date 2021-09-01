@@ -7,7 +7,6 @@
 #campo {
     width: 1000px;
     margin: auto;
-    background-color: green;
     display: flex;
     flex-wrap: wrap;
 }
@@ -16,6 +15,7 @@
     width: 100px;
     height: 100px;
     border: 1px solid;
+    background-color: green;
 }
 
 .bg-red {
