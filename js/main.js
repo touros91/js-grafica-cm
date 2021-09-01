@@ -20,7 +20,8 @@ let numeroCelle = parseInt(prompt(`Inserisci un numero di celle compreso tra 1 e
 
 // 2. validazione: verifico se il numero inserito dall'utente è compreso tra 1 e 100, in caso negativo gli chiedo di reinserirlo fino a quando non è compreso
 
-while (numeroCelle < 1 || numeroCelle > 100) {
+while (isNaN(numeroCelle) || numeroCelle < 1 || numeroCelle > 100) {
+    alert("Errore!");
     numeroCelle = parseInt(prompt(`Inserisci un numero di celle compreso tra 1 e 100`)); 
 }
 
